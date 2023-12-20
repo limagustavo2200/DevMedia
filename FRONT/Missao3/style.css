@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+
+}
+
+#main {
+    margin: 0 auto;
+    border: 2px solid red;
+    width: 500px;
+    color: red;
+    text-align: center;
+    padding: 30px 60px 80px 60px;
+}
+
+img {
+    width: 300px;
+}
+
+h2 {
+    color: red;
+    font-size: 25px;
+    margin: 50px 50px;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 15px;
+    margin-bottom: 80px;
+
+}
+
+a {
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    
+}
+
+#oi {
+    color:white;
+    border: 8px solid red;
+    /* width: 135px;
+    height: 135px; */
+    border-radius: 80px;
+
+}
