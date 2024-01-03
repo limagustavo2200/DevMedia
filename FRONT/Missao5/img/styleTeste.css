@@ -1,0 +1,8 @@
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-image: url('imagemGato.webp');
+    background-repeat: re;
+    background-attachment: fixed;
+}
