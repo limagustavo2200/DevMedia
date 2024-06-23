@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+header {
+    background-color: #8a0601;
+    margin-bottom: 60px ;
+}
+
+header h3 {
+    padding: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding-bottom: 30px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+.container-form {
+    padding: 30px;
+    background-color: orange;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-form form {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    font-size: 16px;
+}
+
+form label {
+    font-weight: 700;
+}
+
+.botao {
+    display: flex;
+    justify-content: flex-end; /* Alinha o botão à direita */
+    width: 75%; /* Faz o contêiner do botão ocupar toda a largura do formulário */
+}
+
+.botao button {
+    border: 2px solid #8a0601;
+    padding: 7px;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.div-other-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+

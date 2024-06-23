@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aprendendo form</title>
+</head>
+<body>
+    <header>
+        <h3>Apredendo form</h3>
+    </header>
+    <main>
+
+        <h1>Matricula</h1>
+
+        <section class="container-form">
+            <form class="form" action="https://www.devmedia.com.br/codigos/formularios/aula3/" method="post">
+                <label for="">Nome:</label>
+                <input type="text" name="nome" placeholder="Digite seu nome" required>
+
+                <label for="">Data de nascimento:</label>
+                <input type="date" name="data" max="2006-01-01" required>
+
+                <label for="">Email:</label>
+                <input type="email" name="email" placeholder="Digite seu email">
+
+                <label for="">Telefone:</label>
+                <input type="tel" name="telefone" minlength="14" required placeholder="Informe seu número de telefone">
+
+                <label for="">Melhor dia para vencimento:</label>
+                <input type="number" name="vencimento" required placeholder="Informe o melhor dia para o vencimento" min="10" max="20">
+
+                <label>Login:</label>
+                <input placeholder="Digite seu login" type="text" name="login" minlength="3" required/>
+
+                <label>Senha:</label>
+                <input placeholder="Digite sua senha" type="password" name="senha" minlength="4" maxlength="8" required />
+
+                <h2>Quais seus esportes favoritos?</h2>
+
+                <div class="div-other-form">
+                    <form class="other-form" action="https://www.devmedia.com.br/codigos/formularios/aula3/" method="get">
+                        <div class="teste">
+                            <input type="checkbox" name="esporte[]" value="futebol" id="checkbox-futebol">
+                            <label for="checkbox-futebol">Futebol</label>
+                        </div>
+                        
+                        <div class="teste">
+                            <input type="checkbox" name="esporte[]" value="volei" id="checkbox-volei">
+                            <label for="checkbox-volei">Volei</label>
+                        </div>
+
+                        <div class="teste">
+                            <input type="checkbox" name="esporte[]" value="basquete" id="checkbox-basquete">
+                            <label for="checkbox-basquete">Basquete</label>
+                        </div>
+                        <!-- <label for="termos">Li e aceito os termos de uso</label>
+                        <input type="checkbox" name="termos" value="aceito" required checked> -->
+                    </form>
+                </div>
+                
+                <div class="botao">
+                    <button type="submit">Enviar Dados</button>
+                </div>
+                
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>
